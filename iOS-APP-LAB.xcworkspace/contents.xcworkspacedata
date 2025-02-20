@@ -4,4 +4,7 @@
    <FileRef
       location = "group:myTimer/myTimer.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:TextFieldProject/TextFieldProject.xcodeproj">
+   </FileRef>
 </Workspace>
