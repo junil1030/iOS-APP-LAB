@@ -7,4 +7,7 @@
    <FileRef
       location = "group:TextFieldProject/TextFieldProject.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:LoginProject/LoginProject.xcodeproj">
+   </FileRef>
 </Workspace>
