@@ -7,8 +7,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
     
+    //MARK: - 이메일 입력하는 텍스트 뷰
     private lazy var emailTextFieldView: UIView = {
         let view = UIView()
         view.backgroundColor = .darkGray
@@ -41,6 +42,7 @@ class ViewController: UIViewController {
         return textField
     }()
     
+    //MARK: - 비밀번호 입력하는 텍스트 뷰
     private lazy var passwordTextFieldView: UIView = {
         let view = UIView()
         view.backgroundColor = #colorLiteral(red: 0.07653414458, green: 0.08221570402, blue: 0.08769344538, alpha: 1)
@@ -84,6 +86,7 @@ class ViewController: UIViewController {
         return button
     }()
     
+    //MARK: - 로그인 버튼
     private let loginButton: UIButton = {
         let button = UIButton(type: .custom)
         button.backgroundColor = .clear
