@@ -6,30 +6,29 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F9BD8FA42D6F4E9500B630BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BD8F9A2D6F4E9500B630BB /* Assets.xcassets */; };
+		F9BD8FA62D6F4E9500B630BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BD8F9D2D6F4E9500B630BB /* LaunchScreen.storyboard */; };
+		F9BD8FA72D6F4E9500B630BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BD8F9F2D6F4E9500B630BB /* Main.storyboard */; };
+		F9BD8FA82D6F4E9500B630BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BD8F992D6F4E9500B630BB /* AppDelegate.swift */; };
+		F9BD8FA92D6F4E9500B630BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BD8FA02D6F4E9500B630BB /* SceneDelegate.swift */; };
+		F9BD8FAA2D6F4E9500B630BB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BD8FA12D6F4E9500B630BB /* SecondViewController.swift */; };
+		F9BD8FAB2D6F4E9500B630BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BD8FA22D6F4E9500B630BB /* ViewController.swift */; };
+		F9BD8FAD2D6F4EF300B630BB /* BMICalculatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BD8FAC2D6F4EDD00B630BB /* BMICalculatorManager.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F9BD8EF22D6F10A000B630BB /* MyBMIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBMIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BD8F992D6F4E9500B630BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9BD8F9A2D6F4E9500B630BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9BD8F9B2D6F4E9500B630BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BD8F9C2D6F4E9500B630BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9BD8F9E2D6F4E9500B630BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9BD8FA02D6F4E9500B630BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F9BD8FA12D6F4E9500B630BB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F9BD8FA22D6F4E9500B630BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9BD8FAC2D6F4EDD00B630BB /* BMICalculatorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculatorManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F9BD8F042D6F10A100B630BB /* Exceptions for "MyBMIProject" folder in "MyBMIProject" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = F9BD8EF12D6F10A000B630BB /* MyBMIProject */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F9BD8EF42D6F10A000B630BB /* MyBMIProject */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				F9BD8F042D6F10A100B630BB /* Exceptions for "MyBMIProject" folder in "MyBMIProject" target */,
-			);
-			path = MyBMIProject;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F9BD8EEF2D6F10A000B630BB /* Frameworks */ = {
@@ -45,7 +44,7 @@
 		F9BD8EE92D6F10A000B630BB = {
 			isa = PBXGroup;
 			children = (
-				F9BD8EF42D6F10A000B630BB /* MyBMIProject */,
+				F9BD8FA32D6F4E9500B630BB /* MyBMIProject */,
 				F9BD8EF32D6F10A000B630BB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +55,46 @@
 				F9BD8EF22D6F10A000B630BB /* MyBMIProject.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F9BD8F962D6F4E9500B630BB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F9BD8FA22D6F4E9500B630BB /* ViewController.swift */,
+				F9BD8FA12D6F4E9500B630BB /* SecondViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F9BD8F972D6F4E9500B630BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F9BD8FAC2D6F4EDD00B630BB /* BMICalculatorManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F9BD8F982D6F4E9500B630BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F9BD8F9F2D6F4E9500B630BB /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F9BD8FA32D6F4E9500B630BB /* MyBMIProject */ = {
+			isa = PBXGroup;
+			children = (
+				F9BD8F992D6F4E9500B630BB /* AppDelegate.swift */,
+				F9BD8FA02D6F4E9500B630BB /* SceneDelegate.swift */,
+				F9BD8F972D6F4E9500B630BB /* Models */,
+				F9BD8F982D6F4E9500B630BB /* Views */,
+				F9BD8F962D6F4E9500B630BB /* Controllers */,
+				F9BD8F9A2D6F4E9500B630BB /* Assets.xcassets */,
+				F9BD8F9B2D6F4E9500B630BB /* Info.plist */,
+				F9BD8F9D2D6F4E9500B630BB /* LaunchScreen.storyboard */,
+			);
+			path = MyBMIProject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +111,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				F9BD8EF42D6F10A000B630BB /* MyBMIProject */,
 			);
 			name = MyBMIProject;
 			packageProductDependencies = (
@@ -122,6 +158,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9BD8FA42D6F4E9500B630BB /* Assets.xcassets in Resources */,
+				F9BD8FA62D6F4E9500B630BB /* LaunchScreen.storyboard in Resources */,
+				F9BD8FA72D6F4E9500B630BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +171,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9BD8FA82D6F4E9500B630BB /* AppDelegate.swift in Sources */,
+				F9BD8FA92D6F4E9500B630BB /* SceneDelegate.swift in Sources */,
+				F9BD8FAA2D6F4E9500B630BB /* SecondViewController.swift in Sources */,
+				F9BD8FAD2D6F4EF300B630BB /* BMICalculatorManager.swift in Sources */,
+				F9BD8FAB2D6F4E9500B630BB /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9BD8F9D2D6F4E9500B630BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9BD8F9C2D6F4E9500B630BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F9BD8F9F2D6F4E9500B630BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9BD8F9E2D6F4E9500B630BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F9BD8F062D6F10A100B630BB /* Debug */ = {
