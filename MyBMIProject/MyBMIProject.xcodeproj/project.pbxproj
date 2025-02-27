@@ -15,6 +15,7 @@
 		F9BD8FAA2D6F4E9500B630BB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BD8FA12D6F4E9500B630BB /* SecondViewController.swift */; };
 		F9BD8FAB2D6F4E9500B630BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BD8FA22D6F4E9500B630BB /* ViewController.swift */; };
 		F9BD8FAD2D6F4EF300B630BB /* BMICalculatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BD8FAC2D6F4EDD00B630BB /* BMICalculatorManager.swift */; };
+		F9F0CDFE2D70920300AF789E /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F0CDFD2D70920000AF789E /* BMI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F9BD8FA12D6F4E9500B630BB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		F9BD8FA22D6F4E9500B630BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F9BD8FAC2D6F4EDD00B630BB /* BMICalculatorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculatorManager.swift; sourceTree = "<group>"; };
+		F9F0CDFD2D70920000AF789E /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		F9BD8F972D6F4E9500B630BB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F9F0CDFD2D70920000AF789E /* BMI.swift */,
 				F9BD8FAC2D6F4EDD00B630BB /* BMICalculatorManager.swift */,
 			);
 			path = Models;
@@ -175,6 +178,7 @@
 				F9BD8FA92D6F4E9500B630BB /* SceneDelegate.swift in Sources */,
 				F9BD8FAA2D6F4E9500B630BB /* SecondViewController.swift in Sources */,
 				F9BD8FAD2D6F4EF300B630BB /* BMICalculatorManager.swift in Sources */,
+				F9F0CDFE2D70920300AF789E /* BMI.swift in Sources */,
 				F9BD8FAB2D6F4E9500B630BB /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
