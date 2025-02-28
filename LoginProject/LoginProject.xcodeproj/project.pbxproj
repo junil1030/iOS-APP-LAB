@@ -6,30 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F955FE392D718A0200CDF508 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F955FE302D718A0200CDF508 /* Assets.xcassets */; };
+		F955FE3B2D718A0200CDF508 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F955FE332D718A0200CDF508 /* LaunchScreen.storyboard */; };
+		F955FE3C2D718A0200CDF508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F955FE352D718A0200CDF508 /* Main.storyboard */; };
+		F955FE3D2D718A0200CDF508 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F955FE2F2D718A0200CDF508 /* AppDelegate.swift */; };
+		F955FE3E2D718A0200CDF508 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F955FE362D718A0200CDF508 /* SceneDelegate.swift */; };
+		F955FE3F2D718A0200CDF508 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F955FE372D718A0200CDF508 /* ViewController.swift */; };
+		F955FE442D718A5400CDF508 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F955FE432D718A5000CDF508 /* LoginView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		F955FE2F2D718A0200CDF508 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F955FE302D718A0200CDF508 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F955FE312D718A0200CDF508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F955FE322D718A0200CDF508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F955FE342D718A0200CDF508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F955FE362D718A0200CDF508 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F955FE372D718A0200CDF508 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F955FE432D718A5000CDF508 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F9E3D3EE2D6853A700346C1C /* LoginProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F9E3D4002D6853A900346C1C /* Exceptions for "LoginProject" folder in "LoginProject" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = F9E3D3ED2D6853A700346C1C /* LoginProject */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F9E3D3F02D6853A700346C1C /* LoginProject */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				F9E3D4002D6853A900346C1C /* Exceptions for "LoginProject" folder in "LoginProject" target */,
-			);
-			path = LoginProject;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F9E3D3EB2D6853A700346C1C /* Frameworks */ = {
@@ -42,10 +39,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F955FE382D718A0200CDF508 /* LoginProject */ = {
+			isa = PBXGroup;
+			children = (
+				F955FE2F2D718A0200CDF508 /* AppDelegate.swift */,
+				F955FE362D718A0200CDF508 /* SceneDelegate.swift */,
+				F955FE412D718A2700CDF508 /* Views */,
+				F955FE422D718A2E00CDF508 /* Controllers */,
+				F955FE302D718A0200CDF508 /* Assets.xcassets */,
+				F955FE312D718A0200CDF508 /* Info.plist */,
+				F955FE332D718A0200CDF508 /* LaunchScreen.storyboard */,
+				F955FE352D718A0200CDF508 /* Main.storyboard */,
+			);
+			path = LoginProject;
+			sourceTree = "<group>";
+		};
+		F955FE412D718A2700CDF508 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F955FE432D718A5000CDF508 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F955FE422D718A2E00CDF508 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F955FE372D718A0200CDF508 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		F9E3D3E52D6853A700346C1C = {
 			isa = PBXGroup;
 			children = (
-				F9E3D3F02D6853A700346C1C /* LoginProject */,
+				F955FE382D718A0200CDF508 /* LoginProject */,
 				F9E3D3EF2D6853A700346C1C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,9 +100,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				F9E3D3F02D6853A700346C1C /* LoginProject */,
 			);
 			name = LoginProject;
 			packageProductDependencies = (
@@ -122,6 +147,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F955FE392D718A0200CDF508 /* Assets.xcassets in Resources */,
+				F955FE3B2D718A0200CDF508 /* LaunchScreen.storyboard in Resources */,
+				F955FE3C2D718A0200CDF508 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +160,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F955FE3D2D718A0200CDF508 /* AppDelegate.swift in Sources */,
+				F955FE3E2D718A0200CDF508 /* SceneDelegate.swift in Sources */,
+				F955FE442D718A5400CDF508 /* LoginView.swift in Sources */,
+				F955FE3F2D718A0200CDF508 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F955FE332D718A0200CDF508 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F955FE322D718A0200CDF508 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F955FE352D718A0200CDF508 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F955FE342D718A0200CDF508 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F9E3D4022D6853A900346C1C /* Debug */ = {
