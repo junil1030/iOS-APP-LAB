@@ -13,4 +13,7 @@
    <FileRef
       location = "group:MyBMIProject/MyBMIProject.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Nav&amp;Tab/Nav&amp;Tab.xcodeproj">
+   </FileRef>
 </Workspace>
