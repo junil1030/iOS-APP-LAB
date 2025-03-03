@@ -13,10 +13,38 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        
+        window = UIWindow(windowScene: windowScene)
+        
+        let tabBarVC = UITabBarController()
+        
+        let vc1 = UINavigationController(rootViewController: FirstViewController())
+        let vc2 = SecondViewController()
+        let vc3 = ThirdViewController()
+        let vc4 = FourthViewController()
+        let vc5 = FifthViewController()
+        
+        vc1.title = "Main"
+        vc2.title = "Search"
+        vc3.title = "Post"
+        vc4.title = "Likes"
+        vc5.title = "Me"
+        
+        tabBarVC.setViewControllers([vc1, vc2, vc3, vc4, vc5], animated: false)
+        tabBarVC.modalPresentationStyle = .fullScreen
+        tabBarVC.tabBar.backgroundColor = .white
+        
+        guard let items = tabBarVC.tabBar.items else { return }
+        items[0].image = UIImage(systemName: "icloud")
+        items[1].image = UIImage(systemName: "folder")
+        items[2].image = UIImage(systemName: "paperplane")
+        items[3].image = UIImage(systemName: "doc")
+        items[4].image = UIImage(systemName: "note")
+        
+        window?.rootViewController = tabBarVC
+        window?.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

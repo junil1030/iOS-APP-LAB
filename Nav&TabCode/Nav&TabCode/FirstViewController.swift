@@ -8,10 +8,22 @@ import UIKit
 
 class FirstViewController: UIViewController {
     
+    var isLoggedIn = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         makeUI()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        if isLoggedIn {
+            let vc = LoginViewController()
+            vc.modalPresentationStyle = .fullScreen
+            present(vc, animated: true, completion: nil)
+        }
     }
     
     func makeUI() {
@@ -19,6 +31,7 @@ class FirstViewController: UIViewController {
         
         let navigationBarAppearance = UINavigationBarAppearance()
         navigationBarAppearance.configureWithOpaqueBackground()
+        
         navigationController?.navigationBar.standardAppearance = navigationBarAppearance
         navigationController?.navigationBar.scrollEdgeAppearance = navigationBarAppearance
         navigationController?.navigationBar.tintColor = .blue
