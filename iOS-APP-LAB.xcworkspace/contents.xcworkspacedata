@@ -16,4 +16,10 @@
    <FileRef
       location = "group:Nav&amp;Tab/Nav&amp;Tab.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:TableView/TableView.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TableViewOnlyCode/TableViewOnlyCode.xcodeproj">
+   </FileRef>
 </Workspace>
