@@ -4,7 +4,6 @@
 //
 //  Created by Allen H on 2022/04/21.
 //
-
 import UIKit
 
 final class ToDoCell: UITableViewCell {
